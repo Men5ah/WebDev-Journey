@@ -60,9 +60,26 @@
 
                 <!--The <form> HTML element represents a document section containing interactive controls for submitting information.-->
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <!--The <label> HTML element represents a caption for an item in a user interface.-->
+                        <!--The <fieldset> HTML element is used to group several controls as well as labels (<label>) within a web form.-->
+                    <fieldset>
+                        <label>
+                            <!--The id global attribute defines an identifier (ID) which must be unique in the whole document.-->
+                            <!--Having radio buttons with the same name will allow only one to be selected at a time.-->
+                            <!--For radio buttons, the value being the same as the id helps when the form is submitted.-->
+                            <input type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor
+                        </label>
+                        <label>
+                            <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
+                        </label>
+                    </fieldset>
+                    
                     <!--The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user-->
                     <!--Elements of type text create basic single-line text fields.-->
-                    <input type="text" name="catphotourl" placeholder="cat photo URL">
+                    <!--Required attribute makes something required so that it can't be submitted without it-->
+                    <!--Placeholder attribute creates placeholder text-->
+                    <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                    <button type="submit">Submit</button>
                 </form>
             </section>
         </main>
