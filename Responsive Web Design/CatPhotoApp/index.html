@@ -63,6 +63,8 @@
                     <!--The <label> HTML element represents a caption for an item in a user interface.-->
                         <!--The <fieldset> HTML element is used to group several controls as well as labels (<label>) within a web form.-->
                     <fieldset>
+                        <!--The <legend> HTML element represents a caption for the content of its parent <fieldset>.-->
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
                         <label>
                             <!--The id global attribute defines an identifier (ID) which must be unique in the whole document.-->
                             <!--Having radio buttons with the same name will allow only one to be selected at a time.-->
@@ -72,6 +74,15 @@
                         <label>
                             <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
                         </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality</legend>
+                        <input type="checkbox" id="loving" name="personality" value="loving">
+                        <!--You can use a label elemnet and a for attribute with the same name as the id of an input
+                        to associate text with an input type.-->
+                        <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality" value="energetic"><label for="energetic">Lazy</label>
                     </fieldset>
                     
                     <!--The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user-->
