@@ -1,6 +1,24 @@
+/* These are type selectors, they will change the style for ALL elements of the same type.
+So for all h2 elements, they will be aligned in the center. */
 h1,h2,p{
     text-align: center;
     }
 body{
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   }
+
+div{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This is a class selector, it uses the class attribute in html elements to find which elements need to be changed. */
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
