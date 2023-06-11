@@ -22,3 +22,18 @@ div{
     margin-left: auto;
     margin-right: auto;
 }
+
+.flavor{
+    text-align: left;
+    width: 50%;
+}
+
+.price{
+    text-align: right;
+    width: 50%
+}
+/* This is how you call all elemnents that are nested within an elemnet of a specific class. */
+/* This selector will call all p elements that are nested within an element with class item. */
+.item p {
+    display: inline-block;
+}
