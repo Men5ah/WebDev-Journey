@@ -23,14 +23,14 @@ div{
     margin-right: auto;
 }
 
-.flavor{
+.flavor, .dessert{
     text-align: left;
-    width: 50%;
+    width: 75%;
 }
 
 .price{
     text-align: right;
-    width: 50%
+    width: 25%
 }
 /* This is how you call all elemnents that are nested within an elemnet of a specific class. */
 /* This selector will call all p elements that are nested within an element with class item. */
