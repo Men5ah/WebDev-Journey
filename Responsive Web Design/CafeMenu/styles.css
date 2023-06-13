@@ -61,4 +61,33 @@ div{
 /* This selector will call all p elements that are nested within an element with class item. */
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+
+a{
+    color: black;
+}
+
+/* This is a pseudo selector. Used for conditions or events in the form of PropertyName:PropertyValue or State */
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: white;
 }
