@@ -11,14 +11,18 @@ h1{
     margin: 10px auto;
 }
 
-.one{
-    background-color: rgb(0, 0, 0);
+/* Different ways of representing color in css */
+.red{
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%); /* Red Green Blue */
+    /* Linear Gradients take at least 3 arguments, the degrees and 2 or more colors
+    You can also determine where the transition from one color to another happens like shown above
+    in the code above */
 }
-.two{
-    background-color: rgb(0, 0, 0);
+.green{
+    background: #007f00; /* Hexadecimal */
   }
-.three{
-    background-color: rgb(0, 0, 0);
+.blue{
+    background-color: hsl(240, 100%, 50%); /* Hue, Saturation, Lightness */
   }
   /* RBG is the color model used in electronic devices
     You can also use the RGB function to add color rather than typing out the name of the color like shown above.
@@ -53,3 +57,8 @@ h1{
 /* Half red and full green = Chartreuse Green */
 /* Half green and full blue = Azure */
 /* Half blue and full red = Rose */
+
+/* One thing to remember is that the linear-gradient
+ function actually creates an image element, and is 
+ usually paired with the background property which 
+ can accept an image as a value. */
