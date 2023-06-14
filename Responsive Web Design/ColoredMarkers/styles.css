@@ -8,16 +8,32 @@ h1{
     height: 25;
     /* When the shorthand margin property has two values,
     it sets margin-top and margin-bottom to the first value, and margin-left and margin-right to the second value. */
-    margin: 10 auto;
+    margin: 10px auto;
 }
 
 .one{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 .two{
-    background-color: green;
+    background-color: rgb(0, 255, 0);
   }
-  
-  .three{
-    background-color: blue;
+.three{
+    background-color: rgb(0, 0, 255);
   }
+  /* RBG is the color model used in electronic devices
+    You can also use the RGB function to add color rather than typing out the name of the color like shown above.
+    All colors start as black and then start to turn R, B, or G depending on the strength. Max is 255. */
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.color-tests{
+    background-color: rgb(255, 255, 0);
+    background-color: rgb(0, 255, 255);
+    background-color: rgb(255, 0, 255);
+}
+/* Full red and full green = Yellow */
+/* Full grren and full blue = Cyan */
+/* Full red and full blue = Magenta */
