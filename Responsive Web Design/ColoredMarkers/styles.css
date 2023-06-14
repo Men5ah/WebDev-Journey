@@ -12,13 +12,13 @@ h1{
 }
 
 .one{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 .two{
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
   }
 .three{
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 0);
   }
   /* RBG is the color model used in electronic devices
     You can also use the RGB function to add color rather than typing out the name of the color like shown above.
@@ -29,7 +29,7 @@ h1{
     padding: 10px 0;
 }
 
-.color-tests{
+.color-tests-secondary{
     background-color: rgb(255, 255, 0);
     background-color: rgb(0, 255, 255);
     background-color: rgb(255, 0, 255);
@@ -37,3 +37,19 @@ h1{
 /* Full red and full green = Yellow */
 /* Full grren and full blue = Cyan */
 /* Full red and full blue = Magenta */
+
+.color-tests-tertiary{
+    background-color: rgb(255, 127, 0);
+    background-color: rgb(0, 255, 127);
+    background-color: rgb(127, 0, 255);
+    /* More tertiary colors */
+    background-color: rgb(127, 255, 0);
+    background-color: rgb(0, 127, 255);
+    background-color: rgb(255, 0, 127);
+}
+/* Full red and half green = Orange*/
+/* Full green and half blue = Spring Green */
+/* Full blue and half red = Violet */
+/* Half red and full green = Chartreuse Green */
+/* Half green and full blue = Azure */
+/* Half blue and full red = Rose */
