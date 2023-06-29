@@ -19,10 +19,12 @@ h1{
     in the code above */
 }
 .green{
-    background: #007f00; /* Hexadecimal */
+    /* background: #007f00; Hexadecimal */
+    background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
   }
 .blue{
-    background-color: hsl(240, 100%, 50%); /* Hue, Saturation, Lightness */
+    /* background: hsl(240, 100%, 50%); Hue, Saturation, Lightness */
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   }
   /* RBG is the color model used in electronic devices
     You can also use the RGB function to add color rather than typing out the name of the color like shown above.
