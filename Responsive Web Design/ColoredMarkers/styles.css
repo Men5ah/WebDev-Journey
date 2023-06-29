@@ -17,14 +17,20 @@ h1{
     /* Linear Gradients take at least 3 arguments, the degrees and 2 or more colors
     You can also determine where the transition from one color to another happens like shown above
     in the code above */
+    /* box-shadow: 5px 5px red; Creates a showdow in the form XOffset YOffset and Color in that order with no spaces */
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
 .green{
     /* background: #007f00; Hexadecimal */
     background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+    /* box-shadow: 5px 5px 5px green; OffsetX OffsetY blurRadius */
+    box-shadow: 0 0 20px 0 #3B7E20CC;
   }
 .blue{
     /* background: hsl(240, 100%, 50%); Hue, Saturation, Lightness */
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    /* box-shadow: 0 0 0 5px blue; OffsetX OffsetY blurRadius spreadRadius Color */
+    box-shadow: 0 0 20px 0 hsl(223, 59%, 31%, 0.8)
   }
   /* RBG is the color model used in electronic devices
     You can also use the RGB function to add color rather than typing out the name of the color like shown above.
@@ -40,9 +46,11 @@ h1{
     height: 25px;
     /* background-color: white;
     opacity: 0.5; */
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.5); /* For opacity */
     border-left-width: 10px;
     border-left-style: solid;
+    border-left-color: black;
+    /* border-left: 10px solid black; width style and color in that order with no commas */
 }
 
 .cap{
